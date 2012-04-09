@@ -1,3 +1,6 @@
+# This task can be run by CRON, or Heroku's Scheduler addon, to dispatch
+# the weather data to the servers at 8am.
+
 task :run do
   $LOAD_PATH.unshift "."
   require "job"
