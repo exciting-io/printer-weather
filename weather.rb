@@ -1,8 +1,6 @@
 require "wunderground"
 require "active_support/time"
 
-# 85f361b799a8c68c
-
 class Weather
   def self.wunderground
     @wunderground ||= Wunderground.new(ENV["WUNDERGROUND_API_KEY"])
