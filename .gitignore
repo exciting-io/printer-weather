@@ -1,0 +1,6 @@
+log
+tmp
+*.db
+.env
+.sass-cache
+*.css
