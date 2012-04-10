@@ -64,7 +64,7 @@ To find out more, you can take a look at any (or all) of the following:
 [find out how to get or make a printer]: http://printer.gofreerange.com/getting-a-printer
 [source]: https://github.com/freerange/printer-weather
 [mail]: https://github.com/freerange/printer-mail
-[drawing]: https://github.com/freerange/printer-paint
+[paint]: https://github.com/freerange/printer-paint
 [the Wunderground API]: http://wunderground.com
 [introductory blog post]: http://gofreerange.com/hello-printer
 [project page]: http://gofreerange.com/printer
