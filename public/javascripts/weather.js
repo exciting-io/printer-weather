@@ -169,6 +169,7 @@ var drawSymbol = function(canvas) {
     "tstorms"        : drawStorm,
     "flurries"       : drawSnow,
     "hazy"           : drawCloud,
+    "chancerain"     : drawRain,
     "rain"           : drawRain,
     "cloudy"         : drawCloud
   }
