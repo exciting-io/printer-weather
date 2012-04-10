@@ -60,7 +60,7 @@ To find out more, you can take a look at any (or all) of the following:
 
 [example]: http://printer-weather.herokuapp.com/#example
 [backend server]: http://printer.gofreerange.com
-[register here]: /register
+[register here]: http://printer-weather.herokuapp.com/register
 [find out how to get or make a printer]: http://printer.gofreerange.com/getting-a-printer
 [source]: https://github.com/freerange/printer-weather
 [mail]: https://github.com/freerange/printer-mail
