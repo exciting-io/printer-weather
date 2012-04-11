@@ -4,7 +4,7 @@ Printer Weather
 (A demo [Printer][project page] application)
 
 This app is designed to demonstrate automated scheduling of content for
-printers, as opposed to the human-driven [mail][] and [drawing][] apps.
+printers, as opposed to the human-driven [mail][] and [paint][] apps.
 
 This application can automatically send weather reports to printers in
 the morning. [Find out more about printers][project page]. It’s really just an
