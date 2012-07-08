@@ -7,6 +7,7 @@ task :run do
   require "net/http"
   require "uri"
   Job.each do |j|
+    puts "Processing job #{j.id}: #{j.print_url}"
     Net::HTTP.post_form(URI.parse(j.print_url), url: "http://printer-weather.herokuapp.com/weather/#{j.id}")
   end
 end
