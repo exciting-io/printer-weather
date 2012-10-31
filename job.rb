@@ -1,6 +1,6 @@
 require "data_mapper"
 
-DataMapper::setup(:default, ENV['SHARED_DATABASE_URL'] || "postgres://localhost/printer-weather")
+DataMapper::setup(:default, ENV['DATABASE_URL'] || "postgres://localhost/printer-weather")
 
 class Job
   include DataMapper::Resource
