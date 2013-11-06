@@ -1,25 +1,25 @@
 <h1>Printer Weather</h1>
 
-<p>(A demo <a href="http://gofreerange.com/printer">Printer</a> application)</p>
+<p>(A demo <a href="http://exciting.io/printer">Printer</a> application)</p>
 
-<p>This application can automatically send weather reports to printers in the morning. <a href="http://gofreerange.com/printer">Find out more about printers</a>. It's really just an example of how you can build a simple content provider for diminutive internet printers.</p>
+<p>This application can automatically send weather reports to printers in the morning. <a href="http://exciting.io/printer">Find out more about printers</a>. It's really just an example of how you can build a simple content provider for diminutive internet printers.</p>
 
-<p>You can <a href="https://github.com/freerange/printer-weather">take a look at the source</a>.
-  
+<p>You can <a href="https://github.com/exciting-io/printer-weather">take a look at the source</a>.
+
 <p>If you have a printer, and want to use this instance of Printer Weather to get weather reports, you can <a href="/register">register here</a>.</p>
 
-<p>If you don't have a printer, <b>why not <a href="http://gofreerange.com/printer">find out how to get or make a printer</a> for yourself?</b></p>
+<p>If you don't have a printer, <b>why not <a href="http://exciting.io/printer">find out how to get or make a printer</a> for yourself?</b></p>
 
 <h2>How it works</h2>
 
-<p>This app is designed to demonstrate automated scheduling of content for printers, as opposed to the human-driven <a href="https://github.com/freerange/printer-mail">mail</a> and <a href="https://github.com/freerange/printer-paint">drawing</a> apps.</p>
+<p>This app is designed to demonstrate automated scheduling of content for printers, as opposed to the human-driven <a href="https://github.com/exciting-io/printer-mail">mail</a> and <a href="https://github.com/exciting-io/printer-paint">drawing</a> apps.</p>
 
 <p>All this happens automatically <b>without user intervention, so in this way "publications" can be scheduled to appear</b> at any time.</p>
 
 <p>Weather 'jobs' are created by storing a print URL alongside IP-based geocoding information, which is gathered to determine the location to be used for forecasting. In a real application you would probably ask the user for their location directly.</p>
 
 <p>The <tt>rake run</tt> task is scheduled (in this case by Heroku, but possibly by cron or anything else) to run at 8 am. At this time, it will send a request for each job to its corresponding print URL, with the <tt>url</tt> parameter set to a unique job URL in this app.</p>
-  
+
 <p>When the printer backend server requests that job URL, this app makes a request to <a href="http://wunderground.com">the Wunderground API</a> to determine the weather for today. This is manipulated a bit, until average temperatures and weather conditions for four periods during the day have been calculated.</p>
 
 <p>These are then displayed in the output HTML using icons drawn with HTML5 canvas tags, appearing roughly like this:</p>
@@ -59,8 +59,8 @@
 
 <p>To find out more, you can take a look at any (or all) of the following:</p>
 <ul>
-  <li>The <a href="http://gofreerange.com/hello-printer">introductory blog post</a>;</li>
-  <li>The <a href="http://gofreerange.com/printer">project page</a>;</li>
-  <li>The <a href="http://printer.gofreerange.com">backend server</a> we are running;</li>
-  <li>The <a href="https://github.com/freerange/printer-weather">source for this app</a>, the <a href="https://github.com/freerange/printer-mail">mail app</a>, the <a href="https://github.com/freerange/printer-paint">paint app</a> or the <a href="https://github.com/freerange/printer">backend server itself</a>.</li>
+  <li>The <a href="http://exciting.io/2012/04/12/hello-printer/">introductory blog post</a>;</li>
+  <li>The <a href="http://exciting.io/printer">project page</a>;</li>
+  <li>The <a href="http://printer.exciting.io">backend server</a> we are running;</li>
+  <li>The <a href="https://github.com/exciting-io/printer-weather">source for this app</a>, the <a href="https://github.com/exciting-io/printer-mail">mail app</a>, the <a href="https://github.com/exciting-io/printer-paint">paint app</a> or the <a href="https://github.com/exciting-io/printer">backend server itself</a>.</li>
 </ul>

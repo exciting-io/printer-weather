@@ -59,13 +59,13 @@ To find out more, you can take a look at any (or all) of the following:
     [backend server itself][backend server source].
 
 [example]: http://printer-weather.herokuapp.com/#example
-[backend server]: http://printer.gofreerange.com
+[backend server]: http://printer.exciting.io
 [register here]: http://printer-weather.herokuapp.com/register
-[find out how to get or make a printer]: http://printer.gofreerange.com/getting-a-printer
-[source]: https://github.com/freerange/printer-weather
-[mail]: https://github.com/freerange/printer-mail
-[paint]: https://github.com/freerange/printer-paint
+[find out how to get or make a printer]: http://printer.exciting.io/getting-a-printer
+[source]: https://github.com/exciting-io/printer-weather
+[mail]: https://github.com/exciting-io/printer-mail
+[paint]: https://github.com/exciting-io/printer-paint
 [the Wunderground API]: http://wunderground.com
-[introductory blog post]: http://gofreerange.com/hello-printer
-[project page]: http://gofreerange.com/printer
-[backend server source]: https://github.com/freerange/printer
+[introductory blog post]: http://exciting.io/2012/04/12/hello-printer/
+[project page]: http://exciting.io/printer
+[backend server source]: https://github.com/exciting-io/printer
